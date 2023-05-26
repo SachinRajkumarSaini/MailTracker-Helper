@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailTracker-Helper</title>
+</head>
+
+<body>
+    <img src="https://t4.ftcdn.net/jpg/03/17/25/45/240_F_317254576_lKDALRrvGoBr7gQSa1k4kJBx7O2D15dc.jpg" height="100"
+        width="100" />
+    <script>
+        // Track the start time of the interaction
+        fetch('https://mailtracker-api.onrender.com/track-email/1313', {method: 'GET'});
+
+        // Track user interactions, such as scrolling or clicking on links
+        // Add event listeners to track relevant actions
+        document.addEventListener('scroll', handleScroll);
+        document.addEventListener('click', handleClick);
+
+        // Function to handle scroll events
+        function handleScroll(event) {
+            // Track the scrolling action
+            fetch('https://mailtracker-api.onrender.com/track-email/1313', {method: 'GET'});
+        }
+
+        // Function to handle click events
+        function handleClick(event) {
+            // Track the click action
+            fetch('https://mailtracker-api.onrender.com/track-email/1313', {method: 'GET'});
+        }
+
+        // Function to track the end time of the interaction
+        function trackInteractionEnd() {
+            fetch('https://mailtracker-api.onrender.com/track-email/1313', {method: 'GET'});
+        }
+
+        // Track the end time when the user closes the email or leaves the page
+        window.addEventListener('beforeunload', trackInteractionEnd);
+    </script>
+</body>
+
+</html>
